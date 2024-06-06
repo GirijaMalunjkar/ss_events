@@ -1,0 +1,43 @@
+.navbar{ 
+    margin: auto;
+    width:80%;
+    padding:15px;
+  } 
+  .img_height2{
+      height: 100px;
+      width: 200px ;
+  }
+  .form-control{
+    border-radius:10px;
+    margin: 5px;
+  }
+  .card_custom{
+    box-shadow:0.5px 0.5px 1px 1px rgb(215, 215, 253);
+    border: 2px solid white;
+
+    /* background-color: whitesmoke; */
+  }
+  .card-shadow{
+    box-shadow:0px 0px 5px 3px rgb(175, 232, 231);
+    border: 2px solid white;
+  }
+   
+/* .rounded{
+  border: 2px solid black;
+  border-radius:100%;
+  margin: 20px;
+} */
+.card-border{
+  box-shadow:-3px 1px 1px rgb(247, 243, 243);
+  border: 2px solid white;
+   
+}
+.card_custom:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (min-width:480px){
+  .img_height2{
+      height: 100px;
+      width: 200px ;
+  }
+}
