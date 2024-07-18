@@ -23,7 +23,7 @@ const Header = () => {
               <LinkContainer to="/">
                 <Navbar.Brand className='text-dark'>
                   <img
-                    src="./image/logo.png"
+                    src="./image/Logo.png"
                     alt="S_Square"
                     style={{ height: '50px', width: '75px' }}
                   />
